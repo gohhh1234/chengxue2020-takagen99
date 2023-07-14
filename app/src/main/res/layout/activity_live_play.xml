@@ -472,7 +472,7 @@
                     android:shadowDy="0"
                     android:shadowRadius="3"
                     android:singleLine="true"
-                    android:text="No information"
+                    android:text="暂无节目信息…"
                     android:textColor="@color/color_FFFFFF"
                     android:textSize="@dimen/ts_20"
                     android:textStyle="bold" />
