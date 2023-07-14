@@ -70,6 +70,7 @@
     <string name="mn_theme">Theme</string>
     <string name="mn_about">About</string>
 	<string name="mn_Version">English</string>
+	<string name="dia_about">This software only provides aggregated display functions, all resources come from the Internet, and the software does not participate in any content production, upload, storage, download,etc.The software is only for learning reference, please delete it within 24 hours after installation. \n\nPlease keep the source after package distribution\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
     <string name="mn_purify">Purify</string>
 
     // Settings Dialog Pop-Up //
