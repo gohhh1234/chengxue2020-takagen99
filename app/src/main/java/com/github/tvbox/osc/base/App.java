@@ -70,7 +70,7 @@ public class App extends MultiDexApplication {
         Hawk.put(HawkConfig.DEBUG_OPEN, false);
 
         putDefault(HawkConfig.HOME_REC, 1);       // Home Rec 0=豆瓣, 1=推荐, 2=历史
-		putDefault(HawkConfig.HOME_REC_STYLE, 1);	// 首页多行 1=多行，0=单行
+		putDefault(HawkConfig.HOME_REC_STYLE, true);	// 首页多行 1=多行，0=单行
         putDefault(HawkConfig.PLAY_TYPE, 1);      // Player   0=系统, 1=IJK, 2=Exo
         putDefault(HawkConfig.IJK_CODEC, "硬解码");// IJK Render 软解码, 硬解码
 //		putDefault(HawkConfig.HOME_SEARCH_POSITION, 0);      //主页搜索按钮位置 0=下方 ,1=上方
