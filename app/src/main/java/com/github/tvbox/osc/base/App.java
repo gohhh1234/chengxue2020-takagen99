@@ -27,12 +27,12 @@ import me.jessyan.autosize.unit.Subunits;
  * @date :2020/12/17
  * @description:
  */
-public class App extends MultiDexApplication {
-    private static App instance;
+公共 class App extends MultiDexApplication {
+    私有 static App instance;
 
     @Override
-    public void onCreate() {
-        super.onCreate();
+    公共 void onCreate() {
+        super。onCreate();
         instance = this;
         initParams();
         // takagen99 : Initialize Locale
@@ -46,13 +46,13 @@ public class App extends MultiDexApplication {
         //初始化数据库
         AppDataManager.init();
         LoadSir.beginBuilder()
-                .addCallback(new EmptyCallback())
-                .addCallback(new LoadingCallback())
-                .commit();
-        AutoSizeConfig.getInstance().setCustomFragment(true).getUnitsManager()
-                .setSupportDP(false)
-                .setSupportSP(false)
-                .setSupportSubunits(Subunits.MM);
+                。addCallback(新建 EmptyCallback())
+                。addCallback(新建 LoadingCallback())
+                。提交();
+        AutoSizeConfig.getInstance()。setCustomFragment(true)。getUnitsManager()
+                。setSupportDP(false)
+                。setSupportSP(false)
+                。setSupportSubunits(Subunits.MM);
         PlayerHelper.init();
 
         // Delete Cache
@@ -62,12 +62,12 @@ public class App extends MultiDexApplication {
         FileUtils.recursiveDelete(dir);
 
         // Add JS support
-        JSEngine.getInstance().create();
+        JSEngine.getInstance()。创建();
     }
 
-    private void initParams() {
+    私有 void initParams() {
         // Hawk
-        Hawk.init(this).build();
+        Hawk.init(this)。build();
         Hawk.put(HawkConfig.DEBUG_OPEN, false);
 
         putDefault(HawkConfig.HOME_REC, 1);       // Home Rec 0=豆瓣, 1=推荐, 2=历史
@@ -83,36 +83,30 @@ public class App extends MultiDexApplication {
 //        putDefault(HawkConfig.LIVE_CROSS_GROUP, 1);    //直播：跨选分类 0=否 ,1=是
 //        putDefault(HawkConfig.LIVE_CHANNEL_REVERSE, 0);    //直播：换台反转 0= 否 ,1=是
 
-	ArrayList<String> history = new ArrayList<String>();
-        history.add("https://kakixf.github.io/static/json/tvbox.json");		//默认
-        history.add("https://www.bestpvp.site/关注码上放生/时光机");		//码上时光机
-        history.add("https://raw.iqiq.io/FongMi/CatVodSpider/main/json/config.json");		//Fongmi接口
-        history.add("https://hutool.ml/tang");		//唐三接口
-        putDefault(HawkConfig.API_HISTORY, history);// 历史配置地址列表
     }
 
-    private void initLocale() {
+    私有 void initLocale() {
         if (Hawk.get(HawkConfig.HOME_LOCALE, 0) == 0) {
-            LocaleHelper.setLocale(App.this, "zh");
+            LocaleHelper.setLocale(App.this， "zh");
         } else {
-            LocaleHelper.setLocale(App.this, "");
+            LocaleHelper.setLocale(App.this， "");
         }
     }
 
-    public static App getInstance() {
+    公共 static App getInstance() {
         return instance;
     }
 
-    private void putDefault(String key, Object value) {
-        if (!Hawk.contains(key)) {
+    私有 void putDefault(String 密钥, Object value) {
+        if (!Hawk.contains(密钥)) {
             Hawk.put(key, value);
         }
     }
 
     @Override
-    public void onTerminate() {
-        super.onTerminate();
-        JSEngine.getInstance().destroy();
+    公共 void onTerminate() {
+        super。onTerminate();
+        JSEngine.getInstance()。destroy();
     }
 
 }
