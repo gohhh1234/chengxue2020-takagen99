@@ -76,7 +76,7 @@ public class App extends MultiDexApplication {
         putDefault(HawkConfig.IJK_CODEC, "硬解码");// IJK Render 软解码, 硬解码
 		putDefault(HawkConfig.HOME_SEARCH_POSITION, false);      //主页搜索按钮位置 false=下方 ,true=上方
 //		putDefault(HawkConfig.HOME_MENU_POSITION, true);     	 //主页菜单按钮位置 false=下方 ,true=上方
-//        putDefault(HawkConfig.SEARCH_VIEW, 1); 				   // 0=文字列表搜索结果 ,1= 图片搜索结果
+        putDefault(HawkConfig.SEARCH_VIEW, 1); 				   // 0=文字列表搜索结果 ,1= 图片搜索结果
 //        putDefault(HawkConfig.HOME_NUM, 2);       // 历史记录数量
 //        putDefault(HawkConfig.DOH_URL, 2);        // DNS
 //        putDefault(HawkConfig.LIVE_CROSS_GROUP, 1);    //直播：跨选分类 0=否 ,1=是
