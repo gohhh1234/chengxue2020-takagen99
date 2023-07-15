@@ -27,12 +27,12 @@ import me.jessyan.autosize.unit.Subunits;
  * @date :2020/12/17
  * @description:
  */
-公共 class App extends MultiDexApplication {
-    私有 static App instance;
+public class App extends MultiDexApplication {
+    private static App instance;
 
     @Override
-    公共 void onCreate() {
-        super。onCreate();
+    public void onCreate() {
+        super.onCreate();
         instance = this;
         initParams();
         // takagen99 : Initialize Locale
@@ -46,13 +46,13 @@ import me.jessyan.autosize.unit.Subunits;
         //初始化数据库
         AppDataManager.init();
         LoadSir.beginBuilder()
-                。addCallback(新建 EmptyCallback())
-                。addCallback(新建 LoadingCallback())
-                。提交();
-        AutoSizeConfig.getInstance()。setCustomFragment(true)。getUnitsManager()
-                。setSupportDP(false)
-                。setSupportSP(false)
-                。setSupportSubunits(Subunits.MM);
+                .addCallback(new EmptyCallback())
+                .addCallback(new LoadingCallback())
+                .commit();
+        AutoSizeConfig.getInstance().setCustomFragment(true).getUnitsManager()
+                .setSupportDP(false)
+                .setSupportSP(false)
+                .setSupportSubunits(Subunits.MM);
         PlayerHelper.init();
 
         // Delete Cache
@@ -62,12 +62,12 @@ import me.jessyan.autosize.unit.Subunits;
         FileUtils.recursiveDelete(dir);
 
         // Add JS support
-        JSEngine.getInstance()。创建();
+        JSEngine.getInstance().create();
     }
 
-    私有 void initParams() {
+    private void initParams() {
         // Hawk
-        Hawk.init(this)。build();
+        Hawk.init(this).build();
         Hawk.put(HawkConfig.DEBUG_OPEN, false);
 
         putDefault(HawkConfig.HOME_REC, 1);       // Home Rec 0=豆瓣, 1=推荐, 2=历史
@@ -85,7 +85,7 @@ import me.jessyan.autosize.unit.Subunits;
 
     }
 
-    私有 void initLocale() {
+    private void initLocale() {
         if (Hawk.get(HawkConfig.HOME_LOCALE, 0) == 0) {
             LocaleHelper.setLocale(App.this， "zh");
         } else {
@@ -93,20 +93,20 @@ import me.jessyan.autosize.unit.Subunits;
         }
     }
 
-    公共 static App getInstance() {
+    public static App getInstance() {
         return instance;
     }
 
-    私有 void putDefault(String 密钥, Object value) {
+    private void putDefault(String 密钥, Object value) {
         if (!Hawk.contains(密钥)) {
             Hawk.put(key, value);
         }
     }
 
     @Override
-    公共 void onTerminate() {
-        super。onTerminate();
-        JSEngine.getInstance()。destroy();
+    public void onTerminate() {
+        super.onTerminate();
+        JSEngine.getInstance().destroy();
     }
 
 }
