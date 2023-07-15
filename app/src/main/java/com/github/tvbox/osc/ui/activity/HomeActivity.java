@@ -770,7 +770,7 @@ public class HomeActivity extends BaseActivity {
             SelectDialog<SourceBean> dialog = new SelectDialog<>(HomeActivity.this);
 
             // Multi Column Selection,首页换源动态列数
-            int spanCount = (int) Math.floor(sites.size() / 10);   
+            int spanCount = (int) Math.floor(sites.size() / 10);
             if (spanCount <= 1) spanCount = 1;
             if (spanCount >= 3) spanCount = 3;
 
