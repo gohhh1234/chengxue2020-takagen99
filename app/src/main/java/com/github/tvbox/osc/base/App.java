@@ -71,19 +71,19 @@ public class App extends MultiDexApplication {
         Hawk.put(HawkConfig.DEBUG_OPEN, false);
 
         putDefault(HawkConfig.HOME_REC, 1);       // Home Rec 0=豆瓣, 1=推荐, 2=历史
-		putDefault(HawkConfig.HOME_SHOW_SOURCE, true);     	 //首页显示数据源  true=显示，false=不显示
-		putDefault(HawkConfig.HOME_REC_STYLE, true);	// 首页多行 true=多行，false=单行
+	putDefault(HawkConfig.HOME_SHOW_SOURCE, true);     	 //首页显示数据源  true=显示，false=不显示
+	putDefault(HawkConfig.HOME_REC_STYLE, true);	// 首页多行 true=多行，false=单行
         putDefault(HawkConfig.PLAY_TYPE, 1);      // Player   0=系统, 1=IJK, 2=Exo
         putDefault(HawkConfig.IJK_CODEC, "硬解码");// IJK Render 软解码, 硬解码
-		putDefault(HawkConfig.HOME_SEARCH_POSITION, false);      //主页搜索按钮位置 false=下方 ,true=上方
-//		putDefault(HawkConfig.HOME_MENU_POSITION, true);     	 //主页菜单按钮位置 false=下方 ,true=上方
+	putDefault(HawkConfig.HOME_SEARCH_POSITION, false);      //主页搜索按钮位置 false=下方 ,true=上方
+//	putDefault(HawkConfig.HOME_MENU_POSITION, true);     	 //主页菜单按钮位置 false=下方 ,true=上方
 //        putDefault(HawkConfig.SEARCH_VIEW, 1); 				   // 0=文字列表搜索结果 ,1= 图片搜索结果
 //        putDefault(HawkConfig.HOME_NUM, 2);       // 历史记录数量
 //        putDefault(HawkConfig.DOH_URL, 2);        // DNS
 //        putDefault(HawkConfig.LIVE_CROSS_GROUP, 1);    //直播：跨选分类 0=否 ,1=是
 //        putDefault(HawkConfig.LIVE_CHANNEL_REVERSE, 0);    //直播：换台反转 0= 否 ,1=是
 
-		ArrayList<String> history = new ArrayList<String>();
+	ArrayList<String> history = new ArrayList<String>();
         history.add("https://kakixf.github.io/static/json/tvbox.json");		//默认
         history.add("https://www.bestpvp.site/关注码上放生/时光机");		//码上时光机
         history.add("https://raw.iqiq.io/FongMi/CatVodSpider/main/json/config.json");		//Fongmi接口
