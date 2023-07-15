@@ -25,7 +25,7 @@
 
         <com.owen.tvrecyclerview.widget.TvRecyclerView
             android:id="@+id/mGroupGridView"
-            android:layout_width="@dimen/vs_200"
+            android:layout_width="@dimen/vs_225"
             android:layout_height="match_parent"
             android:divider="@null"
             android:fadeScrollbars="false"
@@ -99,7 +99,7 @@
 
         <com.owen.tvrecyclerview.widget.TvRecyclerView
             android:id="@+id/mChannelGridView"
-            android:layout_width="@dimen/vs_280"
+            android:layout_width="@dimen/vs_340"
             android:layout_height="match_parent"
             android:divider="@null"
             android:fadeScrollbars="false"
@@ -214,7 +214,7 @@
                 android:id="@+id/txtNoEpg"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
+                android:layout_gravity="left"
                 android:gravity="center"
                 android:text="暂无节目信息…"
                 android:textColor="@color/color_FFFFFF"
@@ -405,15 +405,15 @@
                     android:singleLine="true"
                     android:text="1"
                     android:textColor="@color/color_FFFFFF"
-                    android:textSize="@dimen/ts_20"
+                    android:textSize="@dimen/ts_34"
                     android:textStyle="bold"
                     android:visibility="visible" />
 
                 <com.github.tvbox.osc.ui.tv.widget.MarqueeTextView
                     android:id="@+id/tv_channel_name"
-                    android:layout_width="@dimen/vs_180"
+                    android:layout_width="@dimen/vs_440"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|center"
+                    android:layout_gravity="bottom|left"
                     android:layout_weight="1"
                     android:ellipsize="marquee"
                     android:fontFamily="sans-serif"
@@ -427,7 +427,7 @@
                     android:singleLine="true"
                     android:text="Channel 1"
                     android:textColor="@color/color_FFFFFF"
-                    android:textSize="@dimen/ts_20"
+                    android:textSize="@dimen/ts_34"
                     android:textStyle="bold" />
 
                 <TextView
@@ -524,7 +524,7 @@
                     android:shadowDy="0"
                     android:shadowRadius="3"
                     android:singleLine="true"
-                    android:text="No information"
+                    android:text="暂无节目信息"
                     android:textColor="@color/color_FFFFFF"
                     android:textSize="@dimen/ts_20"
                     android:textStyle="normal" />
