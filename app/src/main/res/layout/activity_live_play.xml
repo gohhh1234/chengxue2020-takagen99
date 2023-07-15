@@ -367,35 +367,15 @@
                 android:paddingBottom="@dimen/vs_5">
 
                 <TextView
-                    android:id="@+id/tv_current_program_time"
-                    android:layout_width="@dimen/vs_160"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|left"
-                    android:layout_weight="1"
-                    android:ellipsize="marquee"
-                    android:fontFamily="sans-serif-condensed"
-                    android:gravity="left"
-                    android:paddingLeft="@dimen/vs_20"
-                    android:shadowColor="@color/color_FF000000"
-                    android:shadowDx="0"
-                    android:shadowDy="0"
-                    android:shadowRadius="3"
-                    android:singleLine="true"
-                    android:text="00:00 - 23:59"
-                    android:textColor="@color/color_FFFFFF"
-                    android:textSize="@dimen/ts_20"
-                    android:textStyle="normal"
-                    android:visibility="visible" />
-
-                <TextView
                     android:id="@+id/tv_channel_number"
-                    android:layout_width="@dimen/vs_100"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|left"
                     android:layout_weight="1"
                     android:ellipsize="marquee"
                     android:fontFamily="sans-serif"
                     android:gravity="left"
+					android:minWidth="@dimen/vs_150"				 
                     android:paddingLeft="@dimen/vs_20"
                     android:paddingRight="@dimen/vs_20"
                     android:shadowColor="@color/color_FF000000"
@@ -476,6 +456,26 @@
                     android:textSize="@dimen/ts_15"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/tv_current_program_time"
+                    android:layout_width="@dimen/vs_160"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="left"
+                    android:paddingLeft="@dimen/vs_20"
+                    android:shadowColor="@color/color_FF000000"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="3"
+                    android:singleLine="true"
+                    android:text="00:00 - 23:59"
+                    android:textColor="@color/color_FFFFFF"
+                    android:textSize="@dimen/ts_20"
+                    android:textStyle="normal"
+                    android:visibility="visible" />
             </LinearLayout>
 
             <LinearLayout
