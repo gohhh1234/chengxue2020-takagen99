@@ -84,10 +84,10 @@ public class App extends MultiDexApplication {
 //        putDefault(HawkConfig.LIVE_CHANNEL_REVERSE, 0);    //直播：换台反转 0= 否 ,1=是
 
 		ArrayList<String> history = new ArrayList<String>();
-        history.add("https://kakixf.github.io/static/json/tvbox.json");
-        history.add("https://kakixf.github.io/static/json/xiaoya.json");
-        history.add("https://kakixf.github.io/static/json/feimao.json");
-        history.add("https://kakixf.github.io/static/json/meotv.json");
+        history.add("https://kakixf.github.io/static/json/tvbox.json");		//默认
+        history.add("https://www.bestpvp.site/关注码上放生/时光机");		//码上时光机
+        history.add("https://raw.iqiq.io/FongMi/CatVodSpider/main/json/config.json");		//Fongmi接口
+        history.add("https://hutool.ml/tang");		//唐三接口
         putDefault(HawkConfig.API_HISTORY, history);// 历史配置地址列表
     }
 
