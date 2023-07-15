@@ -315,16 +315,6 @@
                     android:layout_marginBottom="@dimen/vs_5"
                     android:background="?attr/color_theme" />
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/ll_line2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="horizontal"
-                android:paddingBottom="@dimen/vs_5">
-
                 <TextView
                     android:id="@+id/tv_channel_number"
                     android:layout_width="wrap_content"
@@ -414,7 +404,7 @@
                     android:textColor="@color/color_FFFFFF"
                     android:textSize="@dimen/ts_15"
                     android:textStyle="bold" />
-					
+
 				<TextView
                     android:id="@+id/tv_sys_time"
                     android:layout_width="@dimen/vs_240"
@@ -434,6 +424,16 @@
                     android:textStyle="normal"
                     android:visibility="visible" />
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/vs_5">
+				
                 <TextView
                     android:id="@+id/tv_current_program_time"
                     android:layout_width="@dimen/vs_160"
