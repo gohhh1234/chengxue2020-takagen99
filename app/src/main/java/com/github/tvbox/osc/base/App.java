@@ -97,8 +97,8 @@ public class App extends MultiDexApplication {
         return instance;
     }
 
-    private void putDefault(String 密钥, Object value) {
-        if (!Hawk.contains(密钥)) {
+    private void putDefault(String key, Object value) {
+        if (!Hawk.contains(key)) {
             Hawk.put(key, value);
         }
     }
