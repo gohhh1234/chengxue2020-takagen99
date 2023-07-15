@@ -71,11 +71,11 @@ public class App extends MultiDexApplication {
         Hawk.put(HawkConfig.DEBUG_OPEN, false);
 
         putDefault(HawkConfig.HOME_REC, 1);       // Home Rec 0=豆瓣, 1=推荐, 2=历史
-//		putDefault(HawkConfig.HOME_SHOW_SOURCE, 1);     	 //首页显示数据源
+		putDefault(HawkConfig.HOME_SHOW_SOURCE, true);     	 //首页显示数据源  true=显示，false=不显示
 		putDefault(HawkConfig.HOME_REC_STYLE, true);	// 首页多行 true=多行，false=单行
         putDefault(HawkConfig.PLAY_TYPE, 1);      // Player   0=系统, 1=IJK, 2=Exo
         putDefault(HawkConfig.IJK_CODEC, "硬解码");// IJK Render 软解码, 硬解码
-		putDefault(HawkConfig.HOME_SEARCH_POSITION, 0);      //主页搜索按钮位置 false=下方 ,true=上方
+		putDefault(HawkConfig.HOME_SEARCH_POSITION, false);      //主页搜索按钮位置 false=下方 ,true=上方
 //		putDefault(HawkConfig.HOME_MENU_POSITION, true);     	 //主页菜单按钮位置 false=下方 ,true=上方
 //        putDefault(HawkConfig.SEARCH_VIEW, 1); 				   // 0=文字列表搜索结果 ,1= 图片搜索结果
 //        putDefault(HawkConfig.HOME_NUM, 2);       // 历史记录数量
