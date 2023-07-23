@@ -173,4 +173,7 @@
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_item_list">%1$s，%2$s</string>
 
+	// About
+    <string name="version_title">版本 </string>
+	
 </resources>
