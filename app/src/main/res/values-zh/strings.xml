@@ -173,7 +173,7 @@
 
 	// About
     <string name="version_title">版本 </string>
-	<string name="mn_Version">20230729-2216</string>
-	<string name="dia_about">版本：20230729-2216\n指纹:3699c9bd97aa5f9aca9e68166a35bfaedc6725da\n更新日志：\nIJK update (ref 影魔)\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
+	<string name="mn_Version">20230730-0809</string>
+	<string name="dia_about">版本：20230730-0809\n指纹:2c81c9af965b01c09cda451939e17510e9a12ddb\n更新日志：\nSmall fix\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
 	
 </resources>
