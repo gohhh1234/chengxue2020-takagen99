@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TVBox</string>
+    <string name="app_name">cmsv10视频</string>
     <string name="app_home">首页</string>
-    <string name="app_source">https://chengxue2020.github.io/Cat-ports/main.json</string>
+    <string name="app_source">https://cms.gohkh6.my.eu.org/t.json</string>
 
     // Home Page //
     <string name="hm_ok">加载成功</string>
@@ -173,7 +173,7 @@
 
 	// About
     <string name="version_title">版本 </string>
-	<string name="mn_Version">20230730-0809</string>
-	<string name="dia_about">版本：20230730-0809\n指纹:2c81c9af965b01c09cda451939e17510e9a12ddb\n更新日志：\nSmall fix\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
+	<string name="mn_Version">20230726</string>
+	<string name="dia_about">版本：20230726\n打赏链接:https://donate.stripe.com/eVa29GcNm7dv3NCfYZ\n更新日志：\n修复bug：反复进出直播界面引起闪退，直播超时自动换源时，右侧的线路选择、播放解码反复切换闪退\n图片请求支持headers\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC\nhttps://github.com/chengxue2020/takagen99</string>
 	
 </resources>
