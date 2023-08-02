@@ -3,7 +3,7 @@ name: Test selfbuild
 on:
   push:
     branches:
-      - Dev
+      - dev
   pull_request:
   workflow_dispatch:
 
