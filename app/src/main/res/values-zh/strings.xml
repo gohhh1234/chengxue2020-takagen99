@@ -173,7 +173,7 @@
 
 	// About
     <string name="version_title">版本 </string>
-	<string name="mn_Version">20230730-0809</string>
-	<string name="dia_about">版本：20230730-0809\n指纹:2c81c9af965b01c09cda451939e17510e9a12ddb\n更新日志：\nSmall fix\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
+	<string name="mn_Version">20230806-1908</string>
+	<string name="dia_about">版本：20230806-1908\n指纹:c0d879fffadf8303790d4b68a44a110472c77e59\n更新日志：\nS低版本兼容\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
 	
 </resources>
