@@ -641,7 +641,7 @@ public class PlayActivity extends BaseActivity {
                 lines[i] = "";
             }
         }
-        return String.join(linesplit, lines);
+        return StringUtils.join(lines, linesplit);
     }
 
     void playUrl(String url, HashMap<String, String> headers) {
