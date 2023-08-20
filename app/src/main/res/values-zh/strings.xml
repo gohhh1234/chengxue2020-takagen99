@@ -174,7 +174,7 @@
 
 	// About
     <string name="version_title">版本 </string>
-	<string name="mn_Version">20230818-1150</string>
-	<string name="dia_about">版本：20230818-1150\n更新日志：\n修复ed2k 和 magnet 磁力链接剧集反复切换可能会引起 playUrl 为null的异常\n修磁力推送解析bug (credits q215613905)\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
+	<string name="mn_Version">20230820-1130</string>
+	<string name="dia_about">版本：20230820-1130\n更新日志：\n安卓9及以下支持TLSv1.3，部分站点只开启了TLSv1.3\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
 	
 </resources>
