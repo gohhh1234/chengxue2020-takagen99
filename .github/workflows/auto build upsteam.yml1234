@@ -1,10 +1,8 @@
-name: Auto Build self
+name: Auto Build upsteam
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
+  schedule:
+    - cron: 20,50 0-18 * * *
   workflow_dispatch:
 
 jobs:
@@ -67,10 +65,10 @@ jobs:
           rm -rf apk/
           mkdir -p apk/
           for file in `find ~ -name "*release*.apk" -print`; do
-            mv "$file" apk/cmsv10_takagen99_${{ env.tag }}_Release.apk
+            mv "$file" apk/cmsv10_takagen99-ori_${{ env.tag }}_Release.apk
           done
           for file in `find ~ -name "*debug*.apk" -print`; do
-            mv "$file" apk/cmsv10_takagen99_${{ env.tag }}_Debug.apk
+            mv "$file" apk/cmsv10_takagen99-ori_${{ env.tag }}_Debug.apk
           done
       - name: Release and Upload Assets
         uses: softprops/action-gh-release@v1
