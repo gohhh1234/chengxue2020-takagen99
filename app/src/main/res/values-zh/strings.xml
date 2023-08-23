@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">cmsv10视频</string>
     <string name="app_home">首页</string>
-    <string name="app_source">https://live-tv.gohkh7.eu.org/json/LIVE-TV-TVBOX.json</string>
+    <string name="app_source">https://cms.gohkh6.my.eu.org/t.json</string>
 
     // Home Page //
     <string name="hm_ok">加载成功</string>
