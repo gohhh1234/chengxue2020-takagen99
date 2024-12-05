@@ -5,7 +5,7 @@
     <string name="app_source">https://chengxue2020.github.io/Cat-ports/pg/jsm.json</string>
 
     // 关于界面 //
-    <string name="dia_about">版本：20240929-1529\n更新日志：\n界面微调 (#164)\n  1.页面圆角R值统一\n  2.搜索页面动态设置宽度，防止图片超出背景\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
+    <string name="dia_about">版本：20241205-1529\n更新日志：\n界面微调 (#164)\n  1.页面圆角R值统一\n  2.搜索页面动态设置宽度，防止图片超出背景\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
 
     // Home Page //
     <string name="hm_ok">加载成功</string>
